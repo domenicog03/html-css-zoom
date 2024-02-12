@@ -59,7 +59,7 @@ main{
     flex-wrap: wrap;
     padding: 50px 90px 0px;
     overflow-y: auto;
-    gap: 14px 7px;
+    gap: 15px 6px;
     align-content: flex-start;
 }
 .cam{
@@ -76,10 +76,10 @@ main{
 }
 .mic , .user{
     padding: 5px 5px;
-    background-color: #65717a;
+    background-color: #646f77;
 }
 .user{
-    background-color: rgba(103, 114, 123, 0.5);
+    background-color: rgba(94, 104, 112, 0.5);
 }
 
 
