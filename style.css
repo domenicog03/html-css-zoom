@@ -1,0 +1,148 @@
+/*  ---- RESET ---- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*  ---- General ---- */
+
+body{
+    background-color: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    height: 35px;
+}
+main{
+    height: calc(100vh - 120px);
+}
+footer
+{
+    height: 85px;
+}
+.bg-header-btn , .btn-ftr , .call{
+    cursor: pointer;
+}
+
+
+
+/* ---- Header ---- */
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 5px;
+}
+.bg-header-btn{
+    border: transparent;
+    border-radius: 5px;
+    background-color: #4a4a4a;
+    color: white;
+    padding: 7px 5px;
+}
+
+
+
+/* ---- Main ---- */
+
+main{
+    display: flex;
+    justify-items: center;
+}
+.cameras{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px 90px 0px;
+    overflow-y: auto;
+    gap: 14px 7px;
+    align-content: flex-start;
+}
+.cam{
+    position: relative;
+    color: white;
+}
+.mic-user{
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: end;
+}
+.mic , .user{
+    padding: 5px 5px;
+    background-color: #65717a;
+}
+.user{
+    background-color: rgba(103, 114, 123, 0.5);
+}
+
+
+
+/* ---- Footer ---- */
+
+footer {
+    background-color: #1f1f1f;
+    color: white;
+}
+.menù{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    position: relative;
+}
+.widget{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 10px;
+}
+.widget-meeting{
+    display: flex;
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50% , 50%);
+    gap: 10px;
+    
+}
+.action{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 25px;
+}
+.options{
+    text-align: center;
+    line-height: 0.5;
+}
+.small{
+    font-size: small;
+}
+.btn-ftr{
+    background-color: #222222;
+    color: white;
+    border: transparent;
+}
+.call{
+    background-color: #4a4a4a;
+    height: 100%;
+    padding: 0px 20px;
+    color: red;
+    border: transparent;
+}
+.widget-meeting button:hover{
+    background-color: rgba(103, 114, 123, 0.3);
+    height: 85px;
+    padding: 0 15px;
+    border-radius: 15px;
+    color: #4bc800;
+}
+
